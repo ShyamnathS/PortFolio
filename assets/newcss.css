@@ -6,25 +6,25 @@
   --header-height: 3rem;
 
   /*======= Colors =======*/
-  /* Change Favorite color */
-  --hue-color: 240;
+  /* Professional Neutral and Green Palette */
+  --hue-color: 150; /* Base Hue for Green Accent */
+  --first-color: hsl(150, 30%, 40%); /* Deep Green for Primary */
+  --first-color-second: hsl(150, 30%, 35%);
+  --first-color-alt: hsl(150, 30%, 25%); /* Darker Green for Buttons or Highlights */
+  --first-color-lighter: hsl(150, 40%, 75%); /* Lighter Green for Backgrounds or Hover */
 
-  /*========= HSL Color mode =========*/
-  --first-color: hsl(var(--hue-color), 69%, 61%);
-  --first-color-second: hsl(var(--hue-color), 69%, 61%);
-  --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
-  --title-color: hsl(var(--hue-color), 8%, 15%);
-  --text-color: hsl(var(--hue-color), 8%, 45%);
-  --text-color-light: hsl(var(--hue-color), 8%, 65%);
-  --input-color: hsl(var(--hue-color), 70%, 96%);
-  --body-color: hsl(var(--hue-color), 60%, 99%);
-  --container-color: #fff;
-  --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
-  --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+  --title-color: hsl(0, 0%, 15%); /* Dark Gray for Titles */
+  --text-color: hsl(0, 0%, 40%); /* Medium Gray for Text */
+  --text-color-light: hsl(0, 0%, 60%); /* Light Gray for Subtext */
 
+  --body-color: hsl(0, 0%, 98%); /* Very Light Gray for Body */
+  --container-color: hsl(0, 0%, 100%); /* Pure White for Containers */
+
+  --scroll-bar-color: hsl(0, 0%, 90%); /* Light Gray for Scrollbar */
+  --scroll-thumb-color: hsl(0, 0%, 75%); /* Medium Gray for Scroll Thumb */
+  
   /*========= Font and typography ===========*/
-  --body-font: "Poppins", sans-serif;
+  --body-font: "Roboto", sans-serif; /* Professional Font Choice */
 
   --big-font-size: 2rem;
   --h1-font-size: 1.5rem;
@@ -35,7 +35,6 @@
   --smaller-font-size: 0.75rem;
 
   /*=========== Font weight ==========*/
-
   --font-medium: 500;
   --font-semi-bold: 600;
 
@@ -55,6 +54,8 @@
   --z-fixed: 100;
   --z-modal: 1000;
 }
+
+
 
 /* Font Size for larger devices */
 @media screen and (min-width: 968px) {
